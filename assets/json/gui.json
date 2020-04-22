@@ -1,0 +1,1884 @@
+{
+	"debug": false,
+	"spritesheet": "ButtonSheet0",
+	"tweenSpeed": 400,
+	"scenes": [
+		{
+			"sceneName": "Main",
+			"elements": [
+				{
+					"button": {
+						"callback": "play",
+						"context": null,
+						"key": "PlayButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PlayButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "moreGames",
+						"context": null,
+						"key": "MoreGamesButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "MoreGamesButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "93%"
+						},
+						"visible": false
+					}
+				},
+				{
+					"button": {
+						"callback": "info",
+						"context": null,
+						"key": "InfoButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "InfoButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "93%"
+						},
+						"visible": false
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "GameTitle0",
+						"key": null
+					},
+					"name": "GameTitle",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "40%"
+						},
+						"tween": false
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "Story",
+			"elements": [
+				{
+					"button": {
+						"callback": "next",
+						"context": null,
+						"key": "NextButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "NextButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "81.1%",
+							"y": "85.3%"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "Selection",
+			"elements": [
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MoneyIcon0"
+					},
+					"name": "GoldIcon",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 30,
+							"y": 30
+						}
+					}
+				},
+				{
+					"name": "GoldText",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "0",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 50,
+							"y": 32
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "previous",
+						"context": null,
+						"key": "PreviousButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PreviousButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "next",
+						"context": null,
+						"key": "NextButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "NextButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "shop",
+						"context": null,
+						"key": "PlayButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PlayButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "reward",
+						"context": null,
+						"key": "RewardButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "RewardButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"name": "UnlockPriceLabel",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "$ --",
+						"webFont": false,
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						}
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "50%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "unlockBiome",
+						"context": null,
+						"key": "UnlockButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "UnlockButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "50%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "toggleAudio",
+						"context": null,
+						"key": "SpeakerButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "SpeakerButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": 20,
+							"y": 60
+						}
+					}
+				},
+				{
+					"name": "TrophyCountLabel",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "0 / 4",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "20%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "trophy",
+						"context": null,
+						"key": "GrassRareItemsButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "SpecialItemsButtonsSheet0"
+					},
+					"name": "TrophyButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "calc(20% + 10px)"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "Trophy",
+			"elements": [
+				{
+					"image": {
+						"spritesheet": "RareItemCave0",
+						"key": null
+					},
+					"name": "RareItemSlot0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "30%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "RareItemCave0",
+						"key": null
+					},
+					"name": "RareItemSlot1",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "55%",
+							"y": "30%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "RareItemCave0",
+						"key": null
+					},
+					"name": "RareItemSlot2",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "70%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "RareItemCave0",
+						"key": null
+					},
+					"name": "RareItemSlot3",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "55%",
+							"y": "70%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "CrownIcon0"
+					},
+					"name": "CrownIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "83%",
+							"y": "16%"
+						}
+					}
+				},
+				{
+					"name": "RareItemCountLabel",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "4 / 4",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "83%",
+							"y": "calc(16% + 10px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "home",
+						"context": null,
+						"key": "HomeButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "HomeButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "83%",
+							"y": "90%"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "Shop",
+			"elements": [
+				{
+					"button": {
+						"callback": "money",
+						"context": null,
+						"key": "MoneyButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "MoneyButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "10%",
+							"y": "calc(50% - 210px)"
+						}
+					}
+				},
+				{
+					"name": "MoneyPriceText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 210px - 30px)"
+						}
+					}
+				},
+				{
+					"name": "MoneyUpgradeBarText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 160px)",
+							"y": "calc(50% - 210px + 22px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarFull0"
+					},
+					"name": "MoneyUpgradeBar0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 4,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 210px - 10px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarEmpty0"
+					},
+					"name": "MoneyUpgradeBarEmpty0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 3,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 210px - 10px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "claw",
+						"context": null,
+						"key": "ClawButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "ClawButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "10%",
+							"y": "calc(50% - 70px)"
+						}
+					}
+				},
+				{
+					"name": "ClawPriceText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 70px - 30px)"
+						}
+					}
+				},
+				{
+					"name": "ClawUpgradeBarText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "xxxx",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 160px)",
+							"y": "calc(50% - 70px + 22px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarFull0"
+					},
+					"name": "ClawUpgradeBar0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 4,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 70px - 10px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarEmpty0"
+					},
+					"name": "ClawUpgradeBarEmpty0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 3,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% - 70px - 10px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "fuel",
+						"context": null,
+						"key": "FuelButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "FuelButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "10%",
+							"y": "calc(50% + 70px)"
+						}
+					}
+				},
+				{
+					"name": "FuelPriceText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% + 70px - 30px)"
+						}
+					}
+				},
+				{
+					"name": "FuelUpgradeBarText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 160px)",
+							"y": "calc(50% + 70px + 22px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarFull0"
+					},
+					"name": "FuelUpgradeBar0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 4,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% + 70px - 10px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "UpgradeBarEmpty0"
+					},
+					"name": "FuelUpgradeBarEmpty0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 3,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% + 70px - 10px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "laser",
+						"context": null,
+						"key": "LaserButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "LaserButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "10%",
+							"y": "calc(50% + 210px)"
+						}
+					}
+				},
+				{
+					"name": "LaserPriceText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "999999",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(10% + 70px)",
+							"y": "calc(50% + 210px - 30px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "UpgradeStationCave0",
+						"key": null
+					},
+					"name": "UpgradeStationCave0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "57%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "DiggerMachine0",
+						"key": null
+					},
+					"name": "DiggerMachine0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 1,
+						"position": {
+							"x": "50%",
+							"y": "calc(57% + 30px)"
+						}
+					}
+				},
+				{
+					"name": "MrMiner0",
+					"sprite": {
+						"animate": true,
+						"fps": 30,
+						"spritesheet": "MrMinerIdle_15_30",
+						"key": null
+					},
+					"type": "Sprite",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 2,
+						"position": {
+							"x": "calc(50% + 100px)",
+							"y": "calc(57% + 150px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "play",
+						"context": null,
+						"key": "PlayButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PlayButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "82%",
+							"y": "85%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "exit",
+						"context": null,
+						"key": "WorldButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "WorldButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 6,
+						"position": {
+							"x": "82%",
+							"y": "32%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MoneyIcon0"
+					},
+					"name": "MoneyIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(82% - 90px)",
+							"y": "calc(50% + 10px)"
+						}
+					}
+				},
+				{
+					"name": "MoneyText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "0",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(82% - 70px)",
+							"y": "calc(50% + 12px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "FuelIcon0"
+					},
+					"name": "FuelIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(82% - 90px)",
+							"y": "calc(50% + 60px)"
+						}
+					}
+				},
+				{
+					"name": "FuelText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "45",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 5,
+						"position": {
+							"x": "calc(82% - 70px)",
+							"y": "calc(50% + 60px)"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "LevelPlaying",
+			"elements": [
+				{
+					"image": {
+						"spritesheet": "TutorialImage0",
+						"key": null
+					},
+					"name": "TutorialImage",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 7,
+						"position": {
+							"x": "50%",
+							"y": "50%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "pause",
+						"context": null,
+						"key": "PauseButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PauseButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": 20,
+							"y": 20
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "FuelIcon0"
+					},
+					"name": "FuelIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 20,
+							"y": 110
+						}
+					}
+				},
+				{
+					"name": "FuelText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "0",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 60,
+							"y": 112
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "dynamite",
+						"context": null,
+						"key": "DynamiteButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "DynamiteButton0",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "calc(100% - 50px)",
+							"y": "25%"
+						}
+					}
+				},
+				{
+					"name": "DynamiteText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "3",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 1,
+						"position": {
+							"x": "calc(100% - 50px + 15px)",
+							"y": "calc(25% + 15px)"
+						}
+					}
+				},
+				{
+					"name": "PassiveFuelDrainIcon0",
+					"sprite": {
+						"animate": true,
+						"fps": 2.1,
+						"key": "Fuel0",
+						"spritesheet": "PassiveFuelDrainIconSheet0"
+					},
+					"type": "Sprite",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": 100,
+							"y": 20
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MoneyIcon0"
+					},
+					"name": "MoneyIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 30,
+							"y": "calc(100% - 68px)"
+						}
+					}
+				},
+				{
+					"name": "MoneyText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "0",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 60,
+							"y": "calc(100% - 65px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "DrillBarEmpty0"
+					},
+					"name": "DrillBarEmpty0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": 30,
+							"y": "calc(100% - 30px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "DrillBarFull0"
+					},
+					"name": "DrillBarFull0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 1,
+						"position": {
+							"x": 30,
+							"y": "calc(100% - 30px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "DrillBarLine0"
+					},
+					"name": "DrillBarLine0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 2,
+						"position": {
+							"x": 30,
+							"y": "calc(100% - 30px)"
+						}
+					}
+				},
+				{
+					"name": "DepthText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "-- m",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 1,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "calc(100% - 30px)",
+							"y": "calc(100% - 30px)"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "LevelEnd",
+			"elements": [
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MoneyIcon0"
+					},
+					"name": "MoneyIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "9.2%",
+							"y": "calc(45% - 90px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "DepthIcon0"
+					},
+					"name": "DepthIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "9.2%",
+							"y": "45%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MoneyIcon0"
+					},
+					"name": "MoneyIconSum0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "9.2%",
+							"y": "calc(45% + 90px)"
+						}
+					}
+				},
+				{
+					"name": "EndScreenMoneyText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "24123",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "13.5%",
+							"y": "calc(45% - 90px)"
+						}
+					}
+				},
+				{
+					"name": "Plus",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "+",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "13.5%",
+							"y": "calc(45% - 45px)"
+						}
+					}
+				},
+				{
+					"name": "EndScreenDepthText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "-- m",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "13.5%",
+							"y": "45%"
+						}
+					}
+				},
+				{
+					"name": "Equals",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "=",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "13.5%",
+							"y": "calc(45% + 45px)"
+						}
+					}
+				},
+				{
+					"name": "EndScreenMoneySumText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "24123",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "13.5%",
+							"y": "calc(45% + 90px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "CrownIcon0"
+					},
+					"name": "CrownIcon0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "82%",
+							"y": "calc(50% - 180px)"
+						}
+					}
+				},
+				{
+					"name": "EndScreenSecretsText0",
+					"text": {
+						"bitmap": true,
+						"font": "GobletFont0",
+						"text": "4 / 4",
+						"webfontInfo": {
+							"fill": "#ffffff",
+							"stroke": 1,
+							"strokeThickness": 1
+						},
+						"webFont": false
+					},
+					"type": "Text",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "82%",
+							"y": "calc(50% - 140px)"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "MinerButtonsSheet0",
+						"key": "MinerCartImage0"
+					},
+					"name": "MinerCartImage0",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "82%",
+							"y": "50%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "shop",
+						"context": null,
+						"key": "HomeButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "HomeButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "reward",
+						"context": null,
+						"key": "RewardButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "RewardButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "restart",
+						"context": null,
+						"key": "RetryButtonSmall",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "RetryButtonSmall",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "93%"
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "Info",
+			"elements": [
+				{
+					"button": {
+						"callback": "home",
+						"context": null,
+						"key": "HomeButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "HomeButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "86%",
+							"y": "85%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "toggleAudio",
+						"context": null,
+						"key": "SpeakerButton",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "SpeakerButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 1,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "calc(100% - 30px)",
+							"y": 30
+						}
+					}
+				}
+			]
+		},
+		{
+			"sceneName": "LevelPause",
+			"elements": [
+				{
+					"button": {
+						"callback": "toggleAudio",
+						"context": null,
+						"key": "SpeakerButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "SpeakerButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0,
+							"y": 0
+						},
+						"layer": 0,
+						"position": {
+							"x": "3%",
+							"y": "3%"
+						}
+					}
+				},
+				{
+					"image": {
+						"spritesheet": "PauseImage0",
+						"key": null
+					},
+					"name": "PauseIcon",
+					"type": "Image",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "calc(50% - 50px)"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "shop",
+						"context": null,
+						"key": "HomeButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "HomeButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "20%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "resume",
+						"context": null,
+						"key": "PlayButton",
+						"soundEffect": "MinerButtonClick0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "PlayButton",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "50%",
+							"y": "93%"
+						}
+					}
+				},
+				{
+					"button": {
+						"callback": "restart",
+						"context": null,
+						"key": "RetryButtonSmall",
+						"soundEffect": "Click0",
+						"spritesheet": "MinerButtonsSheet0"
+					},
+					"name": "RetryButtonSmall",
+					"type": "Button",
+					"transform": {
+						"anchor": {
+							"x": 0.5,
+							"y": 1
+						},
+						"layer": 0,
+						"position": {
+							"x": "80%",
+							"y": "93%"
+						}
+					}
+				}
+			]
+		}
+	]
+}
